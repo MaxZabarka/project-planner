@@ -33,7 +33,9 @@ h1 {
   margin: auto;
   background-color: red;
   padding: 10px;
-  width: 70%;
+  width: 90%;
+
+  max-width: 600px;
   border-radius: 15px;
   box-shadow: 2px 2px 13px 4px rgba(0, 0, 0, 0.4);
 }
@@ -76,11 +78,11 @@ h2 {
   color: white;
 }
 .active-container {
-  border-color: red;
+  outline-color: red;
 }
 
 .finished-container {
-  border-color: grey;
+  outline-color: grey;
 }
 
 .active-header {
@@ -91,16 +93,18 @@ h2 {
 }
 .active-header,
 .finished-header {
-  margin: 0;
-  padding: 10px;
   padding: 10px;
 }
 
 .active-container,
 .finished-container {
-  border-style: solid;
-  border-width: 3px;
-  margin: 30px;
+  outline-style: solid;
+  outline-width: 3px;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 5px;
 }
 ul {
   padding: 0;
