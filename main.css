@@ -1,0 +1,167 @@
+.invisible {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.header {
+  background: rgb(93, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 9, 121, 1) 0%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  padding: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+.input-container {
+  margin: auto;
+  background-color: red;
+  padding: 10px;
+  width: 70%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 13px 4px rgba(0, 0, 0, 0.4);
+}
+.input-container button {
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: white;
+  border: none;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
+  color: red;
+  font-weight: bold;
+}
+.input-container button:hover {
+  color: white;
+  background-color: red;
+  box-shadow: inset 0px 0px 0px 2px white;
+  cursor: pointer;
+}
+
+input {
+  color: red;
+  padding-left: 10px;
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
+
+h2 {
+  margin: 0;
+}
+
+.active-container h2,
+.finished-container h2 {
+  color: white;
+}
+.active-container {
+  border-color: red;
+}
+
+.finished-container {
+  border-color: grey;
+}
+
+.active-header {
+  background-color: red;
+}
+.finished-header {
+  background-color: grey;
+}
+.active-header,
+.finished-header {
+  margin: 0;
+  padding: 10px;
+  padding: 10px;
+}
+
+.active-container,
+.finished-container {
+  border-style: solid;
+  border-width: 3px;
+  margin: 30px;
+}
+ul {
+  padding: 0;
+}
+li {
+  border-radius: 15px;
+  padding: 20px 0px 20px 0px;
+  margin: 30px 30px 0px 30px;
+  list-style: none;
+  box-shadow: 2px 2px 13px 4px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+  transition: 0.3s ease;
+  padding: 10px;
+  word-wrap: break-word;
+}
+h3:hover {
+  opacity: 0.5;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+h4 {
+  font-size: 1.3em;
+  margin: 0px 20vmin 0px 20vmin;
+}
+
+button:focus {
+  outline: none;
+}
+
+.active-container button {
+  background-color: red;
+}
+
+.finished-container button {
+  background-color: grey;
+}
+
+.finished-container button,
+.active-container button {
+  transition: 0.3s ease;
+
+  margin-top: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  border: none;
+}
+
+.active-container button:hover {
+  box-shadow: inset 0px 0px 0px 2px red;
+  color: red;
+  background-color: white;
+  cursor: pointer;
+}
+
+.finished-container button:hover {
+  box-shadow: inset 0px 0px 0px 2px grey;
+  color: grey;
+  background-color: white;
+  cursor: pointer;
+}
